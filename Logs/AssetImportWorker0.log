@@ -1,0 +1,1213 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ja' Physical Memory: 48962 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity_\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity_/Project/Udemy_2DACTIONRPG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53071
+Successfully changed project path to: D:/Unity_/Project/Udemy_2DACTIONRPG
+D:/Unity_/Project/Udemy_2DACTIONRPG
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path D:/Unity_/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_/Project/Udemy_2DACTIONRPG/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'D:/Unity_/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity_/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity_/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity_/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity_/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001395 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (529ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (399ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.6 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 2.840200 ms (FindLiveObjects: 0.165500 ms CreateObjectMapping: 0.062000 ms MarkObjects: 2.484100 ms  DeleteObjects: 0.127800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39830e642e86629427d938554181f2fd') in 0.007682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.001967 seconds.
+  path: Packages/com.unity.2d.pixel-perfect/Runtime
+  artifactKey: Guid(86336a55e7547dc488e6f36257a6f183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.pixel-perfect/Runtime using Guid(86336a55e7547dc488e6f36257a6f183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aef5b1628bbfa4120c9df1a81f3c9f1') in 0.005517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.626808 seconds.
+  path: Packages/com.unity.2d.pixel-perfect/Editor
+  artifactKey: Guid(4bbae1155d5b2384d81c76c1973fa104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.pixel-perfect/Editor using Guid(4bbae1155d5b2384d81c76c1973fa104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc7acb2316fea0010b4d9c28da07bfa') in 0.005565 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.0 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2639.
+Total: 2.818900 ms (FindLiveObjects: 0.163500 ms CreateObjectMapping: 0.062700 ms MarkObjects: 2.469500 ms  DeleteObjects: 0.122500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (929ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.7 MB.
+System memory in use after: 104.7 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2785.
+Total: 2.842100 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.078100 ms MarkObjects: 2.462800 ms  DeleteObjects: 0.121400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Domain Reload Profiling:
+	ReloadAssembly (926ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (760ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.8 MB.
+System memory in use after: 104.8 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2788.
+Total: 3.179800 ms (FindLiveObjects: 0.214200 ms CreateObjectMapping: 0.088600 ms MarkObjects: 2.743900 ms  DeleteObjects: 0.132100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (918ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (744ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.9 MB.
+System memory in use after: 104.9 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2791.
+Total: 3.174600 ms (FindLiveObjects: 0.191600 ms CreateObjectMapping: 0.087600 ms MarkObjects: 2.757300 ms  DeleteObjects: 0.137400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (885ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.9 MB.
+System memory in use after: 104.9 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2794.
+Total: 3.272800 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.851500 ms  DeleteObjects: 0.143400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 383.501335 seconds.
+  path: Assets/_Textures/キャラチップ
+  artifactKey: Guid(a0a96f6396375a04f85c066dee4f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ using Guid(a0a96f6396375a04f85c066dee4f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac37f1c358f88c94e1814c5b81c909c') in 0.008771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.991633 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip001.png
+  artifactKey: Guid(14bb571d40ff43543b6aed25878e73ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip001.png using Guid(14bb571d40ff43543b6aed25878e73ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e2b31fc444ecc06fc18bb490dc81f2') in 0.168904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip002.png
+  artifactKey: Guid(265ea7efead076f4ba90ac8b19e5a023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip002.png using Guid(265ea7efead076f4ba90ac8b19e5a023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9835d7f05e6c6883f8d17bd1e7e3e1f1') in 0.014584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip001a.png
+  artifactKey: Guid(b8aed00f3444c454abb86ada42a5beae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip001a.png using Guid(b8aed00f3444c454abb86ada42a5beae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16835bd6661ef6d3f4d5685766366f76') in 0.014002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip001b.png
+  artifactKey: Guid(377664d6fa8593b4380cbdc4aaa37098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip001b.png using Guid(377664d6fa8593b4380cbdc4aaa37098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd800064869e4cb0a23f41d8c0f10ca') in 0.014719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip002a.png
+  artifactKey: Guid(513a3387acfbd9d4484865a03dcbebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip002a.png using Guid(513a3387acfbd9d4484865a03dcbebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76be47e7d8ab9d1f84db81f37f7d2e7b') in 0.015189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.976114 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip002b.png
+  artifactKey: Guid(522ea82b91b670549a046eea894b609a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip002b.png using Guid(522ea82b91b670549a046eea894b609a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f51abc045f4843fc437d728dea7c44') in 0.030735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip003.png
+  artifactKey: Guid(c8706362f4086234884939c22435e560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip003.png using Guid(c8706362f4086234884939c22435e560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a09d5d49664874f54031bf8dfbfc911') in 0.019479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip003b.png
+  artifactKey: Guid(d60b3259937cbb34995bbeef58f5d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip003b.png using Guid(d60b3259937cbb34995bbeef58f5d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea88c662525652c0a1c5c247bdfd59bd') in 0.015211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip003a.png
+  artifactKey: Guid(74a05f5458552b843a591f152d9f1d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip003a.png using Guid(74a05f5458552b843a591f152d9f1d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e4468689dabd61385f2d425dcf0563') in 0.013157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.209875 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip004.png
+  artifactKey: Guid(c3eefa9a3b3d0da42ab5c253e4dcc828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip004.png using Guid(c3eefa9a3b3d0da42ab5c253e4dcc828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce15606a41482cd791b123544b0b31e4') in 0.035404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip004b.png
+  artifactKey: Guid(553336fdd9d50744d8f0130e134a4450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip004b.png using Guid(553336fdd9d50744d8f0130e134a4450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcafe4c479bdb9d77dec278d68a691f') in 0.022898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip005.png
+  artifactKey: Guid(25fe3c2161ed87d48832f97452736012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip005.png using Guid(25fe3c2161ed87d48832f97452736012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20aea8b25a7d9e76bca68844fd0be48a') in 0.013659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip004a.png
+  artifactKey: Guid(aff815f5477d933479a4023be4b55229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip004a.png using Guid(aff815f5477d933479a4023be4b55229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311a9c5fae7b459b985454715da975bf') in 0.015263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.152195 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip005a.png
+  artifactKey: Guid(f119d792ae31e564eb5c5b2802991585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip005a.png using Guid(f119d792ae31e564eb5c5b2802991585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec97be7bf1bb7e539607f82771f1537') in 0.013187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005000 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip005b.png
+  artifactKey: Guid(a1b0f2153b51536459494008ee4ba6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip005b.png using Guid(a1b0f2153b51536459494008ee4ba6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63584ceb32df517b07ee9c8928bf145b') in 0.013716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007301 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip006.png
+  artifactKey: Guid(5f10441a56a56c146a99d7c6c25b113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip006.png using Guid(5f10441a56a56c146a99d7c6c25b113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245a4443080de555987a9ae0343782c6') in 0.014174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005673 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip006a.png
+  artifactKey: Guid(d63e2c5e156cbe246bf5a9eb20bbd842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip006a.png using Guid(d63e2c5e156cbe246bf5a9eb20bbd842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f158d5227098baf7b60d93368f3851d4') in 0.014602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.216986 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip006b.png
+  artifactKey: Guid(076b6f78d07cc9f46ae6719e727138ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip006b.png using Guid(076b6f78d07cc9f46ae6719e727138ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d606761efd07a6228c2a260a135e8dd') in 0.013189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip007.png
+  artifactKey: Guid(69e7c3066261a784bb8298418e61ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip007.png using Guid(69e7c3066261a784bb8298418e61ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1675154c42798e1a33ebb1fbcbd1a427') in 0.012812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011717 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip007a.png
+  artifactKey: Guid(c7f1fb353069fc041b38f06d35afa03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip007a.png using Guid(c7f1fb353069fc041b38f06d35afa03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e213f84321530410878f495625ba39') in 0.011929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.034632 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip007b.png
+  artifactKey: Guid(91785336c31e6684faba2faf63391be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip007b.png using Guid(91785336c31e6684faba2faf63391be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ee3c094894f92a98459e17e7fa9146') in 0.029732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip010.png
+  artifactKey: Guid(f39db404e7860f4429ddcc6520f17bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip010.png using Guid(f39db404e7860f4429ddcc6520f17bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ab266fd9e1fc40253c336be78a71d9') in 0.018440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip011.png
+  artifactKey: Guid(7f8a938c7983f97458adbd1dc59c342a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip011.png using Guid(7f8a938c7983f97458adbd1dc59c342a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5073067399c76cd3c5de6b8d0e543172') in 0.016525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip013b.png
+  artifactKey: Guid(a3e79f312b3117744b6e13dea47505cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip013b.png using Guid(a3e79f312b3117744b6e13dea47505cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686720993dc2892d1d78fe9413e8e230') in 0.014319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip018.png
+  artifactKey: Guid(ee2cdebcfac322943b14c9c1548e3f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip018.png using Guid(ee2cdebcfac322943b14c9c1548e3f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0066aeeb27a6e130bab5ce05c7ee654') in 0.012347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip017a.png
+  artifactKey: Guid(d4f66a9e28304ed489389e235ee49c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip017a.png using Guid(d4f66a9e28304ed489389e235ee49c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851ca30f5ececfeebd5549a369449ffc') in 0.014612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip016b.png
+  artifactKey: Guid(b540b23b5479c6e49b3fccb5f00aa20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip016b.png using Guid(b540b23b5479c6e49b3fccb5f00aa20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94b58ee9e78e6fd26d46581baae3323') in 0.012996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip021c.png
+  artifactKey: Guid(2694eb45bb9e39e4cb8318b857671843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip021c.png using Guid(2694eb45bb9e39e4cb8318b857671843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1810ce927e9ca18bcbc10c292b3d97bc') in 0.012992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip014b.png
+  artifactKey: Guid(6e8901d82e250494d917135a3e5fbc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip014b.png using Guid(6e8901d82e250494d917135a3e5fbc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29f59d223194b2df1f9db5ca6dc0c9e') in 0.012470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip012b.png
+  artifactKey: Guid(e7a11b6eac7a6804abad7a1e6af28275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip012b.png using Guid(e7a11b6eac7a6804abad7a1e6af28275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d64c7ade0030340339b7ebb9e6d62d') in 0.013197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip019.png
+  artifactKey: Guid(307b6131d33718f488887da3aee89948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip019.png using Guid(307b6131d33718f488887da3aee89948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35afc3caf79a358df3135be9ca8d62f8') in 0.014638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip024a.png
+  artifactKey: Guid(3a8f67569c6f44d4e9c8e7a939eae3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip024a.png using Guid(3a8f67569c6f44d4e9c8e7a939eae3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae74a9133543089b401538afe2cf869') in 0.013982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip024b.png
+  artifactKey: Guid(c45f6e817b215b34492fd0d7e37fa11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip024b.png using Guid(c45f6e817b215b34492fd0d7e37fa11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0dfbb128fb4a604b3ead92ff8902c2') in 0.014180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip018b.png
+  artifactKey: Guid(12366201721afc24483f8bf8107e1c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip018b.png using Guid(12366201721afc24483f8bf8107e1c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ff00ac490dbf4789a56ad50760754a') in 0.012753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip018g.png
+  artifactKey: Guid(0df5302d846a0e14b9c1b58fae0f43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip018g.png using Guid(0df5302d846a0e14b9c1b58fae0f43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8547c9dcabfb0134bb6a9a3e5060ed39') in 0.012731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip025a.png
+  artifactKey: Guid(6790257fb73bc544da21870f9e407a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip025a.png using Guid(6790257fb73bc544da21870f9e407a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18273d17a57fb2ad3db7f0b80b82aace') in 0.013195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip013a.png
+  artifactKey: Guid(c3690ffa177734541bb904cf7a642aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip013a.png using Guid(c3690ffa177734541bb904cf7a642aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4eeb02c30fb58637054683a11e6410') in 0.013756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip025d.png
+  artifactKey: Guid(8595bc5c5f423424988142bed30fc3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip025d.png using Guid(8595bc5c5f423424988142bed30fc3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b937de482b81f2e7f65d5921e722a3') in 0.013059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip025c.png
+  artifactKey: Guid(e7bf3f1e547048e459e3200859c7782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip025c.png using Guid(e7bf3f1e547048e459e3200859c7782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6641581673d89b68feff748e15a84ad') in 0.014227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip018a.png
+  artifactKey: Guid(18584d5afee00734fb929e32c27aae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip018a.png using Guid(18584d5afee00734fb929e32c27aae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2d00216cae908e9c25f38e1892cba5') in 0.012546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip027a.png
+  artifactKey: Guid(c86d4076c5d039e48960b0d54514eca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip027a.png using Guid(c86d4076c5d039e48960b0d54514eca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd33e3807e2181920123e1a3ec35404a') in 0.013454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip027c.png
+  artifactKey: Guid(601f5f347f55ca2499b71dfd65e8dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip027c.png using Guid(601f5f347f55ca2499b71dfd65e8dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161c6f17fa05067e4417adbb12f9b756') in 0.013935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip019c.png
+  artifactKey: Guid(3fb933475c9da5e46b7ca0e54e522a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip019c.png using Guid(3fb933475c9da5e46b7ca0e54e522a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ab3737a7d94e1090c8fc93b2502e4a') in 0.015490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip015a.png
+  artifactKey: Guid(4c07ef3af289e644987b16041f2c238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip015a.png using Guid(4c07ef3af289e644987b16041f2c238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26950221f33c08e8849b6b755d724e84') in 0.015138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip026d.png
+  artifactKey: Guid(288715d4710d7974e9ca3076bff9af06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip026d.png using Guid(288715d4710d7974e9ca3076bff9af06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fc36fa3f6f4746e66b2b356a395fb1') in 0.013587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip017b.png
+  artifactKey: Guid(68898e2ad0c686e48b1c178561f3f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip017b.png using Guid(68898e2ad0c686e48b1c178561f3f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edce41bbf0d5b78c9d0de639574cb90') in 0.013006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip016.png
+  artifactKey: Guid(f6b6cc25c7a38c34e8291682c0e5fd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip016.png using Guid(f6b6cc25c7a38c34e8291682c0e5fd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7240c9ee47c417eda73cadc68b1f0e2e') in 0.014446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip020.png
+  artifactKey: Guid(77de6cadd57854344b333e555f459f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip020.png using Guid(77de6cadd57854344b333e555f459f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666db6c4c5a75523baf05130041005a1') in 0.015483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip021a.png
+  artifactKey: Guid(7527abb3a33edc748a93b8f3c8ab0e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip021a.png using Guid(7527abb3a33edc748a93b8f3c8ab0e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb21d65653d961b9a962304ca6eafff') in 0.013268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip026a.png
+  artifactKey: Guid(eea75b84b8753ba49a23f2abd9b5666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip026a.png using Guid(eea75b84b8753ba49a23f2abd9b5666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583a9876a115713c11d36a1b5c60113c') in 0.012321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip025b.png
+  artifactKey: Guid(18dd2b6a5e4e3334da433f0bacae8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip025b.png using Guid(18dd2b6a5e4e3334da433f0bacae8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a799f40e939b4590da9422a8806aba') in 0.012882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip012.png
+  artifactKey: Guid(d538279a21da510489db0ae1251c8b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip012.png using Guid(d538279a21da510489db0ae1251c8b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab109e6d3b7fce254c057633a32cd58') in 0.012484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip017.png
+  artifactKey: Guid(a5553fa5867489e4b9aeae6c7fb89eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip017.png using Guid(a5553fa5867489e4b9aeae6c7fb89eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40adb85a5e7bdd82e61923ad2c4edbe8') in 0.014809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip023d.png
+  artifactKey: Guid(5ed5e209d42a425479f3e131b0673d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip023d.png using Guid(5ed5e209d42a425479f3e131b0673d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8620a029e32d3ded6c1234f21bf798d5') in 0.013715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip013.png
+  artifactKey: Guid(a5df9011ee666464b83250e3c7991f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip013.png using Guid(a5df9011ee666464b83250e3c7991f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c323cc574e06a7f6fc38ccdfe559cb') in 0.014155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip016a.png
+  artifactKey: Guid(c31aea84e3098fb4aa01c43e294bb460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip016a.png using Guid(c31aea84e3098fb4aa01c43e294bb460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0219dc23b5c4ca8cd6b004ddeb262d1') in 0.012618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip023a.png
+  artifactKey: Guid(55a3afa715794c84aaaa620479347d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip023a.png using Guid(55a3afa715794c84aaaa620479347d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5028345fafb74a747f47e94158e008b1') in 0.014696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip011b.png
+  artifactKey: Guid(ea79825a4e4d60d4c9f62596cf93ca4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip011b.png using Guid(ea79825a4e4d60d4c9f62596cf93ca4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5398730b82a2ec30763cfd70d9fbcb39') in 0.014415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip024c.png
+  artifactKey: Guid(8e99a9cb41b5a044699353032d5024fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip024c.png using Guid(8e99a9cb41b5a044699353032d5024fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3795628e26701579abb8c811b6f65536') in 0.013165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip014.png
+  artifactKey: Guid(6d5ca893d5bb0f94da2827c24d25e798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip014.png using Guid(6d5ca893d5bb0f94da2827c24d25e798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e08816e60b6463be605db6008759f4') in 0.012411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip025.png
+  artifactKey: Guid(a1898b1fabbef0b40991f61908f8ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip025.png using Guid(a1898b1fabbef0b40991f61908f8ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b841ad0d8804e5b8a4ff3c5c07295ffd') in 0.012382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip019d.png
+  artifactKey: Guid(94a884c8b57e6784e9b1cf49aa0b0a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip019d.png using Guid(94a884c8b57e6784e9b1cf49aa0b0a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f548e113e3d8e6465c5ce0ea41833d') in 0.014424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip021e.png
+  artifactKey: Guid(30b19d392e1ea1242a2f6640f5d5334d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip021e.png using Guid(30b19d392e1ea1242a2f6640f5d5334d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ace98b9e6a4c7f578758d83b83fe23') in 0.013957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip023.png
+  artifactKey: Guid(72fd73a511edf3c49b84fb3566962504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip023.png using Guid(72fd73a511edf3c49b84fb3566962504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1357cadc3643384a631cad620e8b3b71') in 0.012295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip019a.png
+  artifactKey: Guid(ad4cca95e0746c346822efe19691ac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip019a.png using Guid(ad4cca95e0746c346822efe19691ac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c34c7768191e7b25242693c6a0a4e8') in 0.012051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip025e.png
+  artifactKey: Guid(1f715cb4e22d98d48821958086c55498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip025e.png using Guid(1f715cb4e22d98d48821958086c55498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9930b9f938c41963ed8592e5725920') in 0.012414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip026e.png
+  artifactKey: Guid(565e2cd82a6b92743a0791e3de0e54c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip026e.png using Guid(565e2cd82a6b92743a0791e3de0e54c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997e60dc75dc5ca38846e8960e96f038') in 0.012434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip008a.png
+  artifactKey: Guid(ce0ffd3af9d4af5428bf2d1a83abe4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip008a.png using Guid(ce0ffd3af9d4af5428bf2d1a83abe4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5381634154c8c636dcb6c14bc3a4d8e') in 0.011914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip017c.png
+  artifactKey: Guid(165cfc62a0b3ddb4c9853aeb93a0922d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip017c.png using Guid(165cfc62a0b3ddb4c9853aeb93a0922d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fcdbaa1ed4bcd549847fe0bebe66f7') in 0.012352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip027.png
+  artifactKey: Guid(37db1cc943fb0ae4890c0440b6a9209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip027.png using Guid(37db1cc943fb0ae4890c0440b6a9209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdd0c23033639fea459de247b0421ff') in 0.012387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip018f.png
+  artifactKey: Guid(7e88803a2deb90342ba54b3baaabbba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip018f.png using Guid(7e88803a2deb90342ba54b3baaabbba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bac9bf4d847612eb12b18dc939b5f98') in 0.014064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip021.png
+  artifactKey: Guid(97da0ea4af38bb149843f7b72dfd8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip021.png using Guid(97da0ea4af38bb149843f7b72dfd8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8743c1bca273a94446252fb06e61f4f5') in 0.013903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip014a.png
+  artifactKey: Guid(c06ad247e4221a64ba7a7742f5023820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip014a.png using Guid(c06ad247e4221a64ba7a7742f5023820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4247464e70e889b3aa7a6e56fe00ffc5') in 0.013525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip009a.png
+  artifactKey: Guid(3004002fc2d37c1429933994d2135bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip009a.png using Guid(3004002fc2d37c1429933994d2135bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ec143f8a81edb9a6591362dbe69c87') in 0.013280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip027d.png
+  artifactKey: Guid(afb9c15af63e30e4b919a02a15873796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip027d.png using Guid(afb9c15af63e30e4b919a02a15873796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934d845a57531404713a60cc892af5f7') in 0.013331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip012a.png
+  artifactKey: Guid(4169d76a62adff64abd29707c0c1502d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip012a.png using Guid(4169d76a62adff64abd29707c0c1502d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485e8636a2ee75a33de3391c1af131da') in 0.013785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip015.png
+  artifactKey: Guid(3615bd7db2ca6b84a97dab4e34d5d15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip015.png using Guid(3615bd7db2ca6b84a97dab4e34d5d15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb66058084cde19617426ff7177409f') in 0.014357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip023b.png
+  artifactKey: Guid(2ee167b99601a0a46aceb411907e531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip023b.png using Guid(2ee167b99601a0a46aceb411907e531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091d5f5c31ba59cbaf2191c02dad97ff') in 0.013805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip024d.png
+  artifactKey: Guid(0e1e147c9f277d344b2386fabcd0ffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip024d.png using Guid(0e1e147c9f277d344b2386fabcd0ffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45682cfeb4f1e61ee915587055c78284') in 0.014279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip027b.png
+  artifactKey: Guid(432be747f59f55642bfda64ec7ed7e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip027b.png using Guid(432be747f59f55642bfda64ec7ed7e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ddbcf6514854db0f19f05143607e01') in 0.016321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip008b.png
+  artifactKey: Guid(3476345d16828834f87a76b0f48a6837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip008b.png using Guid(3476345d16828834f87a76b0f48a6837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0300ddc46b31f7ba015fc3de7f0640e7') in 0.015325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip009.png
+  artifactKey: Guid(bcc4649f891f35b4b82714c0394befb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip009.png using Guid(bcc4649f891f35b4b82714c0394befb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4deb30a8ae7950afce00fa4443f16fdb') in 0.014991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip024e.png
+  artifactKey: Guid(506c3fc26f827774eaa44e29d6bf247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip024e.png using Guid(506c3fc26f827774eaa44e29d6bf247b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c417a7c83e35226eb8e9a5df56b4dd') in 0.014808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip011a.png
+  artifactKey: Guid(33c64deca9602f54499b44c3c9d561b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip011a.png using Guid(33c64deca9602f54499b44c3c9d561b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c415bfe2f9a2490f2f9f58c3ba9437e8') in 0.015696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip021d.png
+  artifactKey: Guid(c69c8b6cf5f914840bc8b76dc5402a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip021d.png using Guid(c69c8b6cf5f914840bc8b76dc5402a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafdba1effe9dc3ed78a1400fd2c66ff') in 0.016030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip019b.png
+  artifactKey: Guid(f648f47bd445faf46a900293069794f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip019b.png using Guid(f648f47bd445faf46a900293069794f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf265a2f7b2a78e5c0e7daee40642bd') in 0.015295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip019e.png
+  artifactKey: Guid(77dc1e09b28ac9b42b098b5cbff18952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip019e.png using Guid(77dc1e09b28ac9b42b098b5cbff18952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30cfc55cbb9153a41133585d8d6e37c') in 0.014633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip022.png
+  artifactKey: Guid(ac36f08adf011b34ab7a933e6e2f4c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip022.png using Guid(ac36f08adf011b34ab7a933e6e2f4c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c50d96ea07dfcf20b1dba1096cb6c9') in 0.013482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip022d.png
+  artifactKey: Guid(c9dac09838914f846a3cd8e0c7682391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip022d.png using Guid(c9dac09838914f846a3cd8e0c7682391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92797c7e7727aa5f41ae84ea0577bfef') in 0.013756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip022c.png
+  artifactKey: Guid(5b5b34e4c7b118c449f9b4648eb66c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip022c.png using Guid(5b5b34e4c7b118c449f9b4648eb66c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897b5480a388837b0220fc867515c76a') in 0.012798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip009b.png
+  artifactKey: Guid(425544d6b127a0f4f8cd45108cdf7616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip009b.png using Guid(425544d6b127a0f4f8cd45108cdf7616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187dfd19614430fccf0bbf87c52d4c79') in 0.012160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip022e.png
+  artifactKey: Guid(1aa2afa13ac4d45449b61b8de8ca382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip022e.png using Guid(1aa2afa13ac4d45449b61b8de8ca382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae7e2c7a90ea77d6de93d1320ef14dc') in 0.012599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip008.png
+  artifactKey: Guid(cca3bad1ae2608f42b184bb0d0da9bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip008.png using Guid(cca3bad1ae2608f42b184bb0d0da9bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f851b2015667b36c13635490d4040d') in 0.014759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip023c.png
+  artifactKey: Guid(d7e790c40f2b67f42828631a9fda4fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip023c.png using Guid(d7e790c40f2b67f42828631a9fda4fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd2385f19b407ef378ded0dd90e3fd3') in 0.013513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip018c.png
+  artifactKey: Guid(9097c9e585d587c4dab604289b95d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip018c.png using Guid(9097c9e585d587c4dab604289b95d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c6f45dc8e4c047ecc1dfddc060016d') in 0.013129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip026b.png
+  artifactKey: Guid(fc744e58d5a48fc4e9a9d23c30947967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip026b.png using Guid(fc744e58d5a48fc4e9a9d23c30947967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5306fed4bfaf2e44b74ea2c0c5ccd9da') in 0.012648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip026.png
+  artifactKey: Guid(4eb064867e7214d408a420d258d16a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip026.png using Guid(4eb064867e7214d408a420d258d16a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f05a5ae0c8c5e260ee2cd7c2d438297') in 0.013858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip024.png
+  artifactKey: Guid(373eef50dbf5041489910e113f71e66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip024.png using Guid(373eef50dbf5041489910e113f71e66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2040a9bd7193c5ec2a84a46652b0b6ca') in 0.014744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip015b.png
+  artifactKey: Guid(7f0506244e51e0847857840a00223fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip015b.png using Guid(7f0506244e51e0847857840a00223fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2086d975747e66eda8592f81387b56a') in 0.013062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip026c.png
+  artifactKey: Guid(e31a7d2f6945ce6408f9298be795ea29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip026c.png using Guid(e31a7d2f6945ce6408f9298be795ea29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2870943547240825595d0498a666495c') in 0.013392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip023e.png
+  artifactKey: Guid(67e8b404c7871354cb75d1333f290cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip023e.png using Guid(67e8b404c7871354cb75d1333f290cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595c1670c8789128e6d631cf0b75eafe') in 0.013330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049434 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip027e.png
+  artifactKey: Guid(89f0c27a0c7873e42a78c53dc87aba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip027e.png using Guid(89f0c27a0c7873e42a78c53dc87aba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99daf7e58708c9e2986c42147359af2') in 0.012165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.364158 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip028.png
+  artifactKey: Guid(8cd06da2d12661d47b737f55dd35b532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip028.png using Guid(8cd06da2d12661d47b737f55dd35b532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc2357a303bf684adbd5279cdafc744') in 0.023235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013559 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip028a.png
+  artifactKey: Guid(124a1d14566d8a34993b896e89a0577a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip028a.png using Guid(124a1d14566d8a34993b896e89a0577a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46986994abb4ab789f60319486ca9f56') in 0.013204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.842431 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip028b.png
+  artifactKey: Guid(ca955a59213aa6248b58c80e28f82ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip028b.png using Guid(ca955a59213aa6248b58c80e28f82ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fe2800dd8e4fb8e1a5d5a33a057568') in 0.036737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip028c.png
+  artifactKey: Guid(3612da48d4778f04eb3cc7dabc63ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip028c.png using Guid(3612da48d4778f04eb3cc7dabc63ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657ba58e8a4b7861889133cfe96e72e4') in 0.027002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.311938 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip028d.png
+  artifactKey: Guid(756306a01f9eceb498102a11d7bddf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip028d.png using Guid(756306a01f9eceb498102a11d7bddf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43f6e6c1fab62adb2324fea669f453e') in 0.027103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip028e.png
+  artifactKey: Guid(626564c6141e4de4f843fa83c4fe0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip028e.png using Guid(626564c6141e4de4f843fa83c4fe0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f989b8ed2f8750010cdd5d2e486ef1') in 0.017513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005258 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip029.png
+  artifactKey: Guid(522f07dc9ff009b45844cc1be22a58f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip029.png using Guid(522f07dc9ff009b45844cc1be22a58f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ab7cd1b18e7986018b473fc33c67de') in 0.013470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.282646 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip029a.png
+  artifactKey: Guid(1abe80f1c9dbf074fa4ae7b9765410d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip029a.png using Guid(1abe80f1c9dbf074fa4ae7b9765410d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756d4f2884e506fecc458d342bc8d453') in 0.046443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045800 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip029b.png
+  artifactKey: Guid(362d5167e9aa85641822c6ea81a6c187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip029b.png using Guid(362d5167e9aa85641822c6ea81a6c187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a920cf04c8a35d21c1dfefa73b2d57b') in 0.012017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.055155 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip028e.png
+  artifactKey: Guid(626564c6141e4de4f843fa83c4fe0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip028e.png using Guid(626564c6141e4de4f843fa83c4fe0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ade37c0bf8d5db9c65c0082358cf2f') in 0.009014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.329038 seconds.
+  path: Assets/_Textures/キャラチップ/pipo-charachip028e.png
+  artifactKey: Guid(626564c6141e4de4f843fa83c4fe0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/pipo-charachip028e.png using Guid(626564c6141e4de4f843fa83c4fe0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f9534c78b8ef2372aa0ae271c4c530') in 0.040166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.020728 seconds.
+  path: Assets/_Textures/キャラチップ/left.anim
+  artifactKey: Guid(e85f1aacc72572e41ab52daa10241831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/left.anim using Guid(e85f1aacc72572e41ab52daa10241831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652ff26fe07442e024c4b201696e257f') in 0.017136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.082410 seconds.
+  path: Assets/_Textures/キャラチップ/back.anim
+  artifactKey: Guid(74461baa51573404dad565ca15cce9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/back.anim using Guid(74461baa51573404dad565ca15cce9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca01333af40bd70d4d3bfda19105c5a4') in 0.005618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.578364 seconds.
+  path: Assets/_Animations/Player
+  artifactKey: Guid(24dcae16efbdbf64fa67e17607bb7fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Player using Guid(24dcae16efbdbf64fa67e17607bb7fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f46cdc48052d2234fb5161c29ab0816') in 0.005375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.440312 seconds.
+  path: Assets/_Textures/キャラチップ/right.anim
+  artifactKey: Guid(3295259cfaf1a9741bb2b7eba2238e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/キャラチップ/right.anim using Guid(3295259cfaf1a9741bb2b7eba2238e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93980682a4866adef33926c8bccf8509') in 0.007067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.651848 seconds.
+  path: Assets/_Animations/Player/GameObject.controller
+  artifactKey: Guid(bd8ff382875a5d84fb0af81675280ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Player/GameObject.controller using Guid(bd8ff382875a5d84fb0af81675280ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faa7211263a19b79dfaf41485d5fcd2') in 0.015352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.780764 seconds.
+  path: Assets/_Animations/Player/front.anim
+  artifactKey: Guid(05c6fcc89e5ee53409fc96a67458aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Player/front.anim using Guid(05c6fcc89e5ee53409fc96a67458aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c21944f5bf6e9275b1e93b8e471a5ff') in 0.007413 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (724ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.0 MB.
+System memory in use after: 108.0 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2805.
+Total: 2.910600 ms (FindLiveObjects: 0.160000 ms CreateObjectMapping: 0.092000 ms MarkObjects: 2.529600 ms  DeleteObjects: 0.128300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
