@@ -14,6 +14,9 @@ public class DialogActivater : MonoBehaviour
 
     private bool canActiveter;
 
+    [SerializeField]
+    private bool savePoint;
+
     void Start()
     {
         
@@ -23,6 +26,9 @@ public class DialogActivater : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(1) && canActiveter && !GameManager.instance.dialogBox.activeInHierarchy) {
             GameManager.instance.ShowDialog(lines);
+            if (savePoint) {
+                GameManager.instance.SaveStatuse();
+            }
         }
     }
 

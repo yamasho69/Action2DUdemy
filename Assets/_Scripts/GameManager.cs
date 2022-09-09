@@ -40,8 +40,11 @@ public class GameManager : MonoBehaviour
     [SerializeField,Tooltip("レベルアップに必要な経験値")]
     private int[] requiredExp;
 
+    [SerializeField]
+    private GameObject levelUpText;
 
-
+    [SerializeField]
+    private Canvas canvas;
 
     private void Awake() {
         if(instance == null) {
@@ -49,6 +52,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void Start() {
+        if (PlayerPrefs.HasKey("MaxHP")) {
+            LoadStatuse();
+        }
+    }
     void Update()
     {
         if (dialogBox.activeInHierarchy) {
@@ -129,6 +137,26 @@ public class GameManager : MonoBehaviour
             player.maxHealth += 5;
             player.totalStamina += 5;
             weapon.attackDamage += 2;
+
+            GameObject levelUp = Instantiate(levelUpText);
+            levelUp.transform.SetParent(canvas.transform);
+            levelUp.transform.localPosition = player.transform.position + new Vector3(0, 10, 0);
         }
+    }
+
+    public void SaveStatuse() {
+        PlayerPrefs.SetInt("MaxHP", player.maxHealth);
+        PlayerPrefs.SetFloat("MaxSt", player.totalStamina);
+        PlayerPrefs.SetInt("At", weapon.attackDamage);
+        PlayerPrefs.SetInt("Level", currentLV);
+        PlayerPrefs.SetInt("Exp", totalEXP);
+    }
+
+    public void LoadStatuse() {
+        player.maxHealth = PlayerPrefs.GetInt("MaxHP");
+        player.totalStamina = PlayerPrefs.GetFloat("MaxSt");
+        weapon.attackDamage = PlayerPrefs.GetInt("At");
+        currentLV = PlayerPrefs.GetInt("Level");
+        totalEXP = PlayerPrefs.GetInt("Exp");
     }
 }

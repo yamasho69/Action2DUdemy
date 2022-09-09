@@ -4026,6 +4026,9 @@ MonoBehaviour:
   atText: {fileID: 1556654398}
   weapon: {fileID: 680819789}
   requiredExp: 010000000300000005000000
+  levelUpText: {fileID: 2679231793079490986, guid: 1115195d33df8884499c1092fed9f21e,
+    type: 3}
+  canvas: {fileID: 650462477}
 --- !u!4 &367304646
 Transform:
   m_ObjectHideFlags: 0
@@ -8335,7 +8338,8 @@ MonoBehaviour:
   lines:
   - "\u3053\u3093\u306B\u3061\u306F\uFF01"
   - "\u79C1\u3001\u5973\u795E\u50CF\uFF01\n\u304D\u3083\u308F\u3044\u304F\u3063\u3066\u3054\u3081\u3093\u306D\uFF01"
-  - "\u30BB\u30FC\u30D6\uFF1F\n\u305D\u3093\u306A\u6A5F\u80FD\u306F\u306A\u3044\uFF01\n\u4EE5\u4E0A\uFF01"
+  - "\u30BB\u30FC\u30D6\u3057\u305F\u3088\uFF01"
+  savePoint: 1
 --- !u!212 &7320498033202619062
 SpriteRenderer:
   m_ObjectHideFlags: 0
