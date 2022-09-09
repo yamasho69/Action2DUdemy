@@ -37,7 +37,8 @@ public class EnemyController : MonoBehaviour {
     private int attaackDamage;
 
     [SerializeField]
-    private int currentHealth;
+    private float maxHealth;
+    private float currentHealth;
 
     private bool isKnockingBack;
 
@@ -60,6 +61,11 @@ public class EnemyController : MonoBehaviour {
     [SerializeField]
     private int exp;
 
+    [SerializeField]
+    private Image hpImage;
+
+    private Flash flash;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -68,6 +74,10 @@ public class EnemyController : MonoBehaviour {
         waitCounter = waitTime;
 
         target = GameObject.FindGameObjectWithTag("Player").transform;
+
+        currentHealth = maxHealth;
+        UpdateHealthImage();
+        flash = GetComponent<Flash>();
     }
 
     void Update()
@@ -158,6 +168,8 @@ public class EnemyController : MonoBehaviour {
 
     public void TakeDamage(int damage, Vector3 position) {
         currentHealth -= damage;
+        UpdateHealthImage();
+        flash.PlayFeedback();
         if (currentHealth <= 0) {
 
             Instantiate(blood, transform.position, transform.rotation);
@@ -174,4 +186,8 @@ public class EnemyController : MonoBehaviour {
         }
         KnockBack(position);
     } 
+
+    private void UpdateHealthImage() {
+        hpImage.fillAmount = currentHealth / maxHealth;
+    }
 }

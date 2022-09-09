@@ -138,9 +138,9 @@ public class GameManager : MonoBehaviour
             player.totalStamina += 5;
             weapon.attackDamage += 2;
 
-            GameObject levelUp = Instantiate(levelUpText);
-            levelUp.transform.SetParent(canvas.transform);
-            levelUp.transform.localPosition = player.transform.position + new Vector3(0, 10, 0);
+            GameObject levelUp = Instantiate(levelUpText,player.transform.position,Quaternion.identity);
+            levelUp.transform.SetParent(player.transform);
+            //levelUp.transform.localPosition = player.transform.position + new Vector3(0, 10, 0);
         }
     }
 

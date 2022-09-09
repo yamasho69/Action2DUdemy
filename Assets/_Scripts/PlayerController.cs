@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
 
     private float dashCounter, activeMoveSpeed;
 
+    private Flash flash;
 
     void Start()
     {
@@ -53,6 +54,8 @@ public class PlayerController : MonoBehaviour
         currentStamina = totalStamina;
 
         GameManager.instance.UpdateStaminaUI();
+
+        flash = GetComponent<Flash>();
     }
 
     void Update()
@@ -153,6 +156,8 @@ public class PlayerController : MonoBehaviour
     public void DamagePlayer(int damage) {
         //ダメージを食らって、HPが0以下にならないようにClampで調整
         if(invincibilityCounter <= 0) {
+            flash.PlayFeedback();
+
             currentHealth = Mathf.Clamp(currentHealth - damage, 0, maxHealth);
 
             invincibilityCounter = invincibilityTime;

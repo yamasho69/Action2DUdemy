@@ -4026,7 +4026,7 @@ MonoBehaviour:
   atText: {fileID: 1556654398}
   weapon: {fileID: 680819789}
   requiredExp: 010000000300000005000000
-  levelUpText: {fileID: 2679231793079490986, guid: 1115195d33df8884499c1092fed9f21e,
+  levelUpText: {fileID: 7093870944871004, guid: 1f4565dd21aedc549afa5238aa4fb12e,
     type: 3}
   canvas: {fileID: 650462477}
 --- !u!4 &367304646
@@ -4257,6 +4257,7 @@ GameObject:
   - component: {fileID: 647257072}
   - component: {fileID: 647257073}
   - component: {fileID: 647257074}
+  - component: {fileID: 647257075}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4422,6 +4423,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &647257075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647257068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c75abcaa65bd3d24aa18d7a61b976052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invisibleTime: 0.1
+  visibleTime: 0.1
 --- !u!1 &650462474
 GameObject:
   m_ObjectHideFlags: 0
@@ -8094,6 +8109,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979469763}
   m_CullTransparentMesh: 1
+--- !u!1 &1981392712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 343752096852160470, guid: 64ff59320634ff84695ad86136705f73,
+    type: 3}
+  m_PrefabInstance: {fileID: 343752094872930462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1981392713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981392712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c75abcaa65bd3d24aa18d7a61b976052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invisibleTime: 0.1
+  visibleTime: 0.1
 --- !u!1001 &343752094872930462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8101,11 +8136,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 343752096852160464, guid: 64ff59320634ff84695ad86136705f73,
-        type: 3}
-      propertyPath: exp
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 343752096852160464, guid: 64ff59320634ff84695ad86136705f73,
         type: 3}
       propertyPath: area
