@@ -21,17 +21,66 @@ public class PlayerController : MonoBehaviour
     public int currentHealth;
     public int maxHealth;
 
+    private bool isknockingback;
+    private Vector2 knockDir;
+
+    [SerializeField]
+    private float knockbackTime, knockbackForce;
+    private float knockbackCounter;
+
+    [SerializeField]
+    private float invincibilityTime;
+    private float invincibilityCounter;
+
+    public float totalStamina, recoverySpeed;
+    [System.NonSerialized]
+    public float currentStamina;
+
+    [SerializeField]
+    private float dashSpeed, dashLength, dashCost;
+
+    private float dashCounter, activeMoveSpeed;
+
+
     void Start()
     {
         currentHealth = maxHealth;
 
         GameManager.instance.UpdateHealthUI();
+
+        activeMoveSpeed = moveSpeed;
+
+        currentStamina = totalStamina;
+
+        GameManager.instance.UpdateStaminaUI();
     }
 
     void Update()
     {
+        if (GameManager.instance.statusPanal.activeInHierarchy) {
+            return;
+        }
+
+        //無敵時間中かどうか
+        if(invincibilityTime > 0) {
+            invincibilityCounter -= Time.deltaTime;
+        }
+
+        //ノックバック中かどうか
+        if (isknockingback) {
+            knockbackCounter -= Time.deltaTime;
+            rb.velocity = knockDir * knockbackForce;
+            
+            if(knockbackCounter <= 0) {
+                isknockingback = false;
+            } else {
+                return;//ノックバック中なら、これ以降は処理しない
+            }
+        }
+
+
         //.normalizedでベクトルの大きさを正規化し、斜め移動のスピードを上下左右の移動スピードに合わせる
-        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) .normalized * moveSpeed;
+        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) .normalized * activeMoveSpeed;
 
         if(rb.velocity != Vector2.zero) {//移動スピードがゼロではない時
             if (Input.GetAxisRaw("Horizontal") != 0) {//左右の入力がゼロではない時
@@ -67,5 +116,65 @@ public class PlayerController : MonoBehaviour
             weaponAnim.SetTrigger("Attack");
         }
 
+        if(dashCounter <= 0) {
+            //ローマ字入力モードだと上手くダッシュが機能しないことがあった
+            if(Input.GetKeyDown(KeyCode.Space)&& currentStamina > dashCost) {
+                activeMoveSpeed = dashSpeed;
+                dashCounter = dashLength;
+
+                currentStamina -= dashCost;
+
+                GameManager.instance.UpdateStaminaUI();
+            }
+        } else {
+            dashCounter -= Time.deltaTime;
+            if(dashCounter <= 0) {
+                activeMoveSpeed = moveSpeed;
+            }
+        }
+
+        currentStamina = Mathf.Clamp(currentStamina + recoverySpeed * Time.deltaTime, 0, totalStamina);
+        GameManager.instance.UpdateStaminaUI();
+    }
+
+    /// <summary>
+    /// 吹き飛ばし用の関数
+    /// </summary>
+    /// <param name="position"></param>
+
+    public void KnockBack(Vector3 position) {
+        knockbackCounter = knockbackTime;
+        isknockingback = true;
+
+        knockDir = transform.position - position;
+        knockDir.Normalize();
+    }
+
+    public void DamagePlayer(int damage) {
+        //ダメージを食らって、HPが0以下にならないようにClampで調整
+        if(invincibilityCounter <= 0) {
+            currentHealth = Mathf.Clamp(currentHealth - damage, 0, maxHealth);
+
+            invincibilityCounter = invincibilityTime;
+
+            SoundManager.instance.PlaySE(2);
+
+            if (currentHealth == 0) {
+                gameObject.SetActive(false);
+                SoundManager.instance.PlaySE(0);
+                GameManager.instance.Load();
+            }
+        }
+        GameManager.instance.UpdateHealthUI();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if(collision.tag == "portion"&& maxHealth != currentHealth && collision.GetComponent<Items>().waitTime <= 0) {
+            Items items = collision.GetComponent<Items>();
+            SoundManager.instance.PlaySE(1);
+            currentHealth = Mathf.Clamp(currentHealth + items.helthItemRecoveryValue, 0, maxHealth);
+            GameManager.instance.UpdateHealthUI();
+            Destroy(collision.gameObject);
+        }
     }
 }
