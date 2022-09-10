@@ -43,11 +43,11 @@ public class PlayerController : MonoBehaviour
 
     private Flash flash;
 
-    void Start()
+    /*void Start()
     {
         currentHealth = maxHealth;
 
-        GameManager.instance.UpdateHealthUI();
+        //GameManager.instance.UpdateHealthUI();
 
         activeMoveSpeed = moveSpeed;
 
@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
             invincibilityCounter -= Time.deltaTime;
         }
 
-        //ノックバック中かどうか
+        ノックバック中かどうか
         if (isknockingback) {
             knockbackCounter -= Time.deltaTime;
             rb.velocity = knockDir * knockbackForce;
@@ -181,5 +181,5 @@ public class PlayerController : MonoBehaviour
             GameManager.instance.UpdateHealthUI();
             Destroy(collision.gameObject);
         }
-    }
+    }*/
 }

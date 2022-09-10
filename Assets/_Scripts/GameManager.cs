@@ -12,16 +12,16 @@ public class GameManager : MonoBehaviour
     //static
     public static GameManager instance;
 
-    [SerializeField]
-    private Slider hpSlider;
+    /*[SerializeField]
+    private Slider hpSlider;*/
 
     [SerializeField]
-    private PlayerController player;
+    private RisuController player;
 
     [SerializeField]
     private Slider staminaSlider;
 
-    public GameObject dialogBox;
+    /*public GameObject dialogBox;
     public Text dialogText;
 
     private string[] dialogLines;
@@ -44,7 +44,11 @@ public class GameManager : MonoBehaviour
     private GameObject levelUpText;
 
     [SerializeField]
-    private Canvas canvas;
+    private Canvas canvas;*/
+
+    public int totalDonguri = 0,nowDonguri= 0;
+    public Text totalDonguriText;
+    public GameObject [] nowDonguris;
 
     private void Awake() {
         if(instance == null) {
@@ -52,7 +56,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Start() {
+    /*private void Start() {
         if (PlayerPrefs.HasKey("MaxHP")) {
             LoadStatuse();
         }
@@ -77,19 +81,30 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E)) {
             ShowStatusPanel();
         }
-    }
+    }*/
 
-    public void UpdateHealthUI() {
+    /*public void UpdateHealthUI() {
         hpSlider.maxValue = player.maxHealth;
         hpSlider.value = player.currentHealth;
-    }
+    }*/
 
     public void UpdateStaminaUI() {
         staminaSlider.maxValue = player.totalStamina;
         staminaSlider.value = player.currentStamina;
     }
 
-    public void ShowDialog(string[] lines) {
+    public void UpdateDonguriUI() {
+        totalDonguriText.text = "集めたドングリ：" + totalDonguri;
+        if(nowDonguri == 0) {
+            for(int i = 0; i < nowDonguris.Length; i++) {
+                nowDonguris[i].SetActive(false);
+            }
+        } else {
+            nowDonguris[nowDonguri-1].SetActive(true);
+        }
+    }
+
+    /*public void ShowDialog(string[] lines) {
         dialogLines = lines;
 
         currretLine = 0;
@@ -101,13 +116,13 @@ public class GameManager : MonoBehaviour
 
     public void ShowDialogChange(bool x) {
         dialogBox.SetActive(x);
-    }
+    }*/
 
     public void Load() {
         SceneManager.LoadScene("Main");
     }
 
-    public void ShowStatusPanel() {
+    /*public void ShowStatusPanel() {
         statusPanal.SetActive(true);
         Time.timeScale = 0;
         StatusUpdate();
@@ -158,5 +173,5 @@ public class GameManager : MonoBehaviour
         weapon.attackDamage = PlayerPrefs.GetInt("At");
         currentLV = PlayerPrefs.GetInt("Level");
         totalEXP = PlayerPrefs.GetInt("Exp");
-    }
+    }*/
 }

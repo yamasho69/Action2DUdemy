@@ -33,12 +33,12 @@ public class RisuController : MonoBehaviour {
 
     public float totalStamina, recoverySpeed;
     [System.NonSerialized]
-    public float currentStamina;
+    public float currentStamina;//現在のスタミナ
 
     [SerializeField]
-    private float dashSpeed, dashLength, dashCost;
+    private float dashSpeed, dashLength, dashCost;//スピード、距離、コスト
 
-    private float dashCounter, activeMoveSpeed;
+    private float dashCounter, activeMoveSpeed;//何秒走れるか
 
     //private Flash flash;
 
@@ -57,12 +57,12 @@ public class RisuController : MonoBehaviour {
     }
 
     void Update() {
-        if (GameManager.instance.statusPanal.activeInHierarchy) {
+        /*if (GameManager.instance.statusPanal.activeInHierarchy) {
             return;
         }
 
         //無敵時間中かどうか
-        /*if (invincibilityTime > 0) {
+        if (invincibilityTime > 0) {
             invincibilityCounter -= Time.deltaTime;
         }
 
@@ -134,9 +134,7 @@ public class RisuController : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.Space) && currentStamina > dashCost) {
                 activeMoveSpeed = dashSpeed;
                 dashCounter = dashLength;
-
                 currentStamina -= dashCost;
-
                 GameManager.instance.UpdateStaminaUI();
             }
         } else {
@@ -145,11 +143,9 @@ public class RisuController : MonoBehaviour {
                 activeMoveSpeed = moveSpeed;
             }
         }
-
         currentStamina = Mathf.Clamp(currentStamina + recoverySpeed * Time.deltaTime, 0, totalStamina);
         GameManager.instance.UpdateStaminaUI();
     }
-
     /// <summary>
     /// 吹き飛ばし用の関数
     /// </summary>
@@ -184,13 +180,15 @@ public class RisuController : MonoBehaviour {
         //GameManager.instance.UpdateHealthUI();
     }
 
-    /*private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.tag == "portion" && maxHealth != currentHealth && collision.GetComponent<Items>().waitTime <= 0) {
-            Items items = collision.GetComponent<Items>();
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.tag == "donguri" && GameManager.instance.nowDonguri < 5) {
+            //Items items = collision.GetComponent<Items>();
             SoundManager.instance.PlaySE(1);
-            currentHealth = Mathf.Clamp(currentHealth + items.helthItemRecoveryValue, 0, maxHealth);
-            GameManager.instance.UpdateHealthUI();
+            //currentHealth = Mathf.Clamp(currentHealth + items.helthItemRecoveryValue, 0, maxHealth);
+            GameManager.instance.nowDonguri++;
+            GameManager.instance.UpdateDonguriUI();
             Destroy(collision.gameObject);
         }
-    }*/
+        Debug.Log(GameManager.instance.nowDonguri);
+    }
 }

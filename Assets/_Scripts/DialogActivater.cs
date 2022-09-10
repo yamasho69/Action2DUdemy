@@ -9,7 +9,7 @@ using System.Linq;
 
 public class DialogActivater : MonoBehaviour
 {
-    [SerializeField, Header("‰ï˜b•¶Í"), Multiline(3)]
+    /*[SerializeField, Header("‰ï˜b•¶Í"), Multiline(3)]
     private string[] lines;
 
     private bool canActiveter;
@@ -43,5 +43,5 @@ public class DialogActivater : MonoBehaviour
             canActiveter = false;
             GameManager.instance.ShowDialogChange(canActiveter);
         }
-    }
+    }*/
 }

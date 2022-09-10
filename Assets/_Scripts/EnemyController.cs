@@ -66,7 +66,7 @@ public class EnemyController : MonoBehaviour {
 
     private Flash flash;
 
-    void Start()
+    /*void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         enemyAnim = GetComponent<Animator>();
@@ -189,5 +189,5 @@ public class EnemyController : MonoBehaviour {
 
     private void UpdateHealthImage() {
         hpImage.fillAmount = currentHealth / maxHealth;
-    }
+    }*/
 }
