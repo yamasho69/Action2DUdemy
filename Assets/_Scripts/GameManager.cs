@@ -21,6 +21,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private Slider staminaSlider;
 
+
+
+
     /*public GameObject dialogBox;
     public Text dialogText;
 
@@ -49,13 +52,26 @@ public class GameManager : MonoBehaviour
     public int totalDonguri = 0,nowDonguri= 0;
     public Text totalDonguriText;
     public GameObject [] nowDonguris;
+    private float totalDays = 90;
+    private float limitDay;
+    public Text DaysText;
 
     private void Awake() {
         if(instance == null) {
             instance = this;
         }
+        limitDay = totalDays;
     }
 
+    void Update() {
+        limitDay -= Time.deltaTime;
+        int i = (int)limitDay;
+        DaysText.text = "“~‚Ü‚Å‚ ‚Æ"+ i.ToString("d2") +"“ú";
+
+        if (limitDay <= 0) {
+            // 0•b‚É‚È‚Á‚½‚Æ‚«‚Ìˆ—
+        }
+    }
     /*private void Start() {
         if (PlayerPrefs.HasKey("MaxHP")) {
             LoadStatuse();
@@ -120,6 +136,10 @@ public class GameManager : MonoBehaviour
 
     public void Load() {
         SceneManager.LoadScene("Main");
+    }
+
+    public void LoadTitle() {
+        SceneManager.LoadScene("Title");
     }
 
     /*public void ShowStatusPanel() {

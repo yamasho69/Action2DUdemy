@@ -25,7 +25,8 @@ public class FoxandBearController : MonoBehaviour
     [SerializeField, Tooltip("プレイヤーを追いかける")]
     private bool chase;
 
-    private bool isChaseing;
+    [HideInInspector]
+    public bool isChaseing;
 
     [SerializeField]
     private float chaseSpeed, rangeToChase;
@@ -33,6 +34,9 @@ public class FoxandBearController : MonoBehaviour
 
     [SerializeField]
     private float waitAfterHitting;
+
+    [SerializeField]
+    private GameObject right, left, front, back;
 
     /*[SerializeField]
     private int attaackDamage;
@@ -113,32 +117,32 @@ public class FoxandBearController : MonoBehaviour
                 }
             }
 
-            if (chase) {
+            /*if (chase) {
                 if (Vector3.Distance(transform.position, target.transform.position) < rangeToChase) {//敵とプレイヤーの距離がrangeToChaseより小さい時
                     isChaseing = true;
                 }
-            }
+            }*/
+
         } else {
-            if (waitCounter > 0) {
+
+            /*if (waitCounter > 0) {
                 waitCounter -= Time.deltaTime;
                 rb.velocity = Vector2.zero;
 
                 if (waitCounter <= 0) {
                     //enemyAnim.SetBool("moving", true);
                 }
-            } else {
+            } else {*/
                 moveDir = target.transform.position - transform.position;
                 moveDir.Normalize();
                 rb.velocity = moveDir * chaseSpeed;
                 MoveAnimation();
-            }
-            if (Vector3.Distance(transform.position, target.transform.position) > rangeToChase) {//敵とプレイヤーの距離がrangeToChaseより大きい時
+            //}
+            //waitCounter = waitTime;
+            /*if (Vector3.Distance(transform.position, target.transform.position) > rangeToChase) {//敵とプレイヤーの距離がrangeToChaseより大きい時
                 isChaseing = false;
-
-                waitCounter = waitTime;
-
                 //enemyAnim.SetBool("moving", false);
-            }
+            }*/
         }
 
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, area.bounds.min.x + 1, area.bounds.max.x - 1)
@@ -165,17 +169,33 @@ public class FoxandBearController : MonoBehaviour
             if (moveDir.x >= 0) {
                 enemyAnim.SetFloat("X", 1f);//アニメーターのパラメータXを１に
                 enemyAnim.SetFloat("Y", 0);
+                left.SetActive(false);
+                right.SetActive(true);
+                front.SetActive(false);
+                back.SetActive(false);
             } else {
                 enemyAnim.SetFloat("X", -1f);//アニメーターのパラメータXを‐１に
                 enemyAnim.SetFloat("Y", 0);
+                left.SetActive(true);
+                right.SetActive(false);
+                front.SetActive(false);
+                back.SetActive(false);
             }
         } else {
             if (moveDir.y >= 0) {
                 enemyAnim.SetFloat("X", 0);
                 enemyAnim.SetFloat("Y", 1);//アニメーターのパラメータYを１に
+                left.SetActive(false);
+                right.SetActive(false);
+                front.SetActive(false);
+                back.SetActive(true);
             } else {
                 enemyAnim.SetFloat("X", 0);
                 enemyAnim.SetFloat("Y", -1);//アニメーターのパラメータYを-１に
+                left.SetActive(false);
+                right.SetActive(false);
+                front.SetActive(true);
+                back.SetActive(false);
             }
         }
     }

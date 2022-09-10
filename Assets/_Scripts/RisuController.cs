@@ -57,6 +57,11 @@ public class RisuController : MonoBehaviour {
     }
 
     void Update() {
+        //ƒ|[ƒY’†‚Í“ü—Í–³Œø
+        if (Time.timeScale ==0) {
+            return;
+        }
+
         /*if (GameManager.instance.statusPanal.activeInHierarchy) {
             return;
         }
@@ -189,6 +194,11 @@ public class RisuController : MonoBehaviour {
             GameManager.instance.UpdateDonguriUI();
             Destroy(collision.gameObject);
         }
-        Debug.Log(GameManager.instance.nowDonguri);
+
+        if(collision.tag == "House") {
+            GameManager.instance.totalDonguri += GameManager.instance.nowDonguri;
+            GameManager.instance.nowDonguri = 0;
+            GameManager.instance.UpdateDonguriUI();
+        }
     }
 }
