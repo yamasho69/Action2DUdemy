@@ -64,13 +64,15 @@ public class GameManager : MonoBehaviour
     }
 
     void Update() {
+        if (limitDay <= 0) {
+            // 0•b‚É‚È‚Á‚½‚Æ‚«‚Ìˆ—
+            DaysText.text = "“~“ž—ˆII";
+            return;
+        }
+
         limitDay -= Time.deltaTime;
         int i = (int)limitDay;
         DaysText.text = "“~‚Ü‚Å‚ ‚Æ"+ i.ToString("d2") +"“ú";
-
-        if (limitDay <= 0) {
-            // 0•b‚É‚È‚Á‚½‚Æ‚«‚Ìˆ—
-        }
     }
     /*private void Start() {
         if (PlayerPrefs.HasKey("MaxHP")) {
