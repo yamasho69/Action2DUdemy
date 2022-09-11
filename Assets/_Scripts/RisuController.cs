@@ -199,6 +199,9 @@ public class RisuController : MonoBehaviour {
             GameManager.instance.totalDonguri += GameManager.instance.nowDonguri;
             GameManager.instance.nowDonguri = 0;
             GameManager.instance.UpdateDonguriUI();
+            if (GameManager.instance.totalDonguri / 3 >= 1) {
+                GameManager.instance.donguriGra[GameManager.instance.totalDonguri / 3-1].SetActive(true);
+            }
         }
     }
 }

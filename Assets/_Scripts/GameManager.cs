@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private Slider staminaSlider;
 
-
+    public GameObject [] donguriGra;
 
 
     /*public GameObject dialogBox;
@@ -56,6 +56,14 @@ public class GameManager : MonoBehaviour
     private float limitDay;
     public Text DaysText;
 
+    public GameObject stones1;
+    public GameObject stones2;
+
+    public GameObject forest1;
+    public GameObject forest2;
+
+    public GameObject donguriWave2;
+
     private void Awake() {
         if(instance == null) {
             instance = this;
@@ -70,6 +78,13 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        if (limitDay < 40) {
+            stones1.SetActive(false);
+            stones2.SetActive(true);
+            forest1.SetActive(false);
+            forest2.SetActive(true);
+            donguriWave2.SetActive(true);
+        }
         limitDay -= Time.deltaTime;
         int i = (int)limitDay;
         DaysText.text = "“~‚Ü‚Å‚ ‚Æ"+ i.ToString("d2") +"“ú";
@@ -137,10 +152,12 @@ public class GameManager : MonoBehaviour
     }*/
 
     public void Load() {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Main");
     }
 
     public void LoadTitle() {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Title");
     }
 
