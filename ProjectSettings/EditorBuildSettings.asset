@@ -10,5 +10,8 @@ EditorBuildSettings:
     guid: 0068c7c850c877e40b7ff4faad50e048
   - enabled: 1
     path: Assets/_Scenes/Main.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 72ff9393bf750b844a522d1cf4414a53
+  - enabled: 1
+    path: Assets/naichilab/unity-simple-ranking/Scenes/Ranking.unity
+    guid: 152244f5855414ac4a3874f14efa583c
   m_configObjects: {}

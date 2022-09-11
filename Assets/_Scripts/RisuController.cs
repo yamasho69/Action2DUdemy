@@ -195,10 +195,11 @@ public class RisuController : MonoBehaviour {
             Destroy(collision.gameObject);
         }
 
-        if(collision.tag == "House") {
+        if(collision.tag == "House" && GameManager.instance.nowDonguri >=1) {
             GameManager.instance.totalDonguri += GameManager.instance.nowDonguri;
             GameManager.instance.nowDonguri = 0;
             GameManager.instance.UpdateDonguriUI();
+            SoundManager.instance.PlaySE(1);
             if (GameManager.instance.totalDonguri / 3 >= 1) {
                 GameManager.instance.donguriGra[GameManager.instance.totalDonguri / 3-1].SetActive(true);
             }

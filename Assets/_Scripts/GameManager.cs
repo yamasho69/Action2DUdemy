@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using NCMB;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -22,6 +23,8 @@ public class GameManager : MonoBehaviour
     private Slider staminaSlider;
 
     public GameObject [] donguriGra;
+
+    private bool resultOn;
 
 
     /*public GameObject dialogBox;
@@ -52,7 +55,7 @@ public class GameManager : MonoBehaviour
     public int totalDonguri = 0,nowDonguri= 0;
     public Text totalDonguriText;
     public GameObject [] nowDonguris;
-    private float totalDays = 90;
+    public float totalDays;
     private float limitDay;
     public Text DaysText;
 
@@ -64,6 +67,12 @@ public class GameManager : MonoBehaviour
 
     public GameObject donguriWave2;
 
+    public GameObject resultPanel;
+    public Text resultText;
+    public Text resultDonguri;
+    public GameObject [] resultSprites;
+    public GameObject risu;
+
     private void Awake() {
         if(instance == null) {
             instance = this;
@@ -72,9 +81,28 @@ public class GameManager : MonoBehaviour
     }
 
     void Update() {
-        if (limitDay <= 0) {
+        if (limitDay <= 0 && !resultOn) {
             // 0秒になったときの処理
             DaysText.text = "冬到来！！";
+            if (totalDonguri > 35) {
+                resultSprites[0].SetActive(true);
+                resultText.text = "今年の冬眠は豪勢だ！";
+            }else if (totalDonguri>25) {
+                resultSprites[1].SetActive(true);
+                resultText.text = "余裕をもって冬が越せそう！";
+            } else if (totalDonguri>15) {
+                resultSprites[2].SetActive(true);
+                resultText.text = "ちょっとひもじい……。";
+            } else {
+                resultSprites[3].SetActive(true);
+                resultText.text = "こんな備蓄で大丈夫か？";
+            }
+            resultDonguri.text = "集めたドングリ：" + totalDonguri+"個";
+            resultPanel.SetActive(true);
+            risu.SetActive(false);
+            // Type == Number の場合
+            naichilab.RankingLoader.Instance.SendScoreAndShowRanking(totalDonguri);
+            resultOn = true;
             return;
         }
 
